@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@1,700&family=Markazi+Text&family=Shadows+Into+Light&family=Tajawal:wght@700;800&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+h2,
+h3,
+h5{
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+}
+
+h3{
+    margin-top: 2px;
+}
+
+.hotandcold{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.juice{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+img{
+    width: 200px;
+    height: 150px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+h5{
+    text-decoration: underline;
+}
+
+@media (max-width: 767px){
+    .hotandcold{
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        width: 100%;
+        height: 70%;
+        margin: 25px 0 10px 0;
+        position: relative;
+    }
+    #mcch{
+        height: 300px;
+        margin-bottom: 50px;
+    }
+    #melon{
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    h2{
+        text-align: center;
+    }
+
+    .hotandcold{
+        display: flex;
+        flex-direction: row;
+    }
+    img{
+        width: 200px;
+        height: 150px;
+        margin-left: 10px;
+        position: relative;
+    }
+}
